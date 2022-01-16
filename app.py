@@ -21,7 +21,7 @@ tesla_df = pd.DataFrame.from_dict(tesla, orient='index',columns=["Mention"])
 
 
 app = Dash(__name__)
-
+server = app.server
 # ------------------------------------------------------------------------------
 # App layout
 app.layout = html.Div(
